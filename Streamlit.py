@@ -4,7 +4,7 @@ import plotly.express as px
 import base64
 
 # Load the Excel file into a DataFrame
-excel_file = "/Users/shetty21/Downloads/Streamlit.xlsx"
+excel_file = "Streamlit.xlsx"
 df = pd.read_excel(excel_file, sheet_name='Sheet1')
 df['FICE'] = pd.to_numeric(df['FICE'], errors='coerce')
 
