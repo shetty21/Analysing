@@ -1,6 +1,6 @@
 import streamlit as st
 import pandas as pd
-
+import plotly.express as plt
 import base64
 
 # Load the Excel file into a DataFrame
